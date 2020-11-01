@@ -15,3 +15,6 @@ for i in range(len(strf)):
         a.insert(len(a),res_str)
         newfile.writelines("%s\n" %res[0])
     flag = False
+
+file.close()
+newfile.close()
